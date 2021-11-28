@@ -16,6 +16,7 @@ var username = data["name"]
 var nightskip = data["auto-night-skip"]
 var bot = mineflayer.createBot({
   host: host,
+  port: 29762, 
   username: username
 });
 function getRandomArbitrary(min, max) {
