@@ -15,10 +15,11 @@ var host = data["ip"];
 var username = data["name"]
 var nightskip = data["auto-night-skip"]
 var bot = mineflayer.createBot({
-  host: host,
+  host: 'ult6.falix.gg',
   port: 29762, 
-  username: username
+  username: 'bot'
 });
+console.log("joined")
 function getRandomArbitrary(min, max) {
        return Math.random() * (max - min) + min;
 
