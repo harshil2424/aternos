@@ -12,14 +12,17 @@ var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 var host = data["ip"];
-var username = data["name"]
-var nightskip = data["auto-night-skip"]
+var username = data["name"];
+var nightskip = data["auto-night-skip"];
+
+console.log('hello harshil');
+
 var bot = mineflayer.createBot({
   host: 'ult6.falix.gg',
   port: 29762, 
   username: 'bot'
 });
-console.log("joined")
+console.log("joined");
 function getRandomArbitrary(min, max) {
        return Math.random() * (max - min) + min;
 
